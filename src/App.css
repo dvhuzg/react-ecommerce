@@ -63,6 +63,37 @@ button {
   border-radius: 50%;
   cursor: pointer;
 }
-.boxShadow{
+.boxShadow {
   box-shadow: rgb(43 52 69 /10%) 0 4px 16px;
+}
+/*----------------------------------Category---------------------------------- */
+.contentWidth {
+  width: 76%;
+}
+.category {
+  width: 24%;
+  box-shadow: rgb(43 52 69 /10%) 0 4px 16px;
+  height: 510px;
+  padding: 15px 0;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+.category img{
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  object-fit: contain;
+}
+.category span{
+  margin: 10px 20px;
+  text-transform: capitalize;
+}
+.category .box{
+ transition: .5s;
+ padding: 0px 20px;
+}
+.category .box:hover{
+  background-color:#ffe1ef;
+  cursor: pointer;
+  /* color: #ffffff; */
 }
