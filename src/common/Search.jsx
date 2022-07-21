@@ -1,5 +1,5 @@
 import React from "react";
-import logo from './assets/images/logo.svg';
+import logo from './assets/images/Logo/logo.svg';
 import { Link } from "react-router-dom";
 const Search = () => {
   window.addEventListener('scroll',function(){
