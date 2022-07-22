@@ -1,11 +1,11 @@
 import React from "react";
-import logo from './assets/images/Logo/logo.svg';
+import logo from "../assets/images/Logo/logo.svg";
 import { Link } from "react-router-dom";
-const Search = () => {
-  window.addEventListener('scroll',function(){
-    const search = document.querySelector('.search');
-    search.classList.toggle('active', window.screenY>100);
-  })
+const Search = ({ cartItem }) => {
+  window.addEventListener("scroll", function () {
+    const search = document.querySelector(".search");
+    search.classList.toggle("active", window.screenY > 100);
+  });
   return (
     <>
       <section className="search">
@@ -21,9 +21,9 @@ const Search = () => {
           <div className="icon f_flex width">
             <i className="fa fa-user icon_circle"></i>
             <div className="cart">
-              <Link to='/cart'>
+              <Link to="/cart">
                 <i className="fa fa-shopping-bag icon_circle"></i>
-                <span>0</span>
+                <span>{cartItem.length === 0 ? "" : cartItem.length}</span>
               </Link>
             </div>
           </div>

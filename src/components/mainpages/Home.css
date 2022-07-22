@@ -1,5 +1,6 @@
 .home{
     margin-top: 20px;
+    overflow: hidden;
 }
 .homeSlide h1 {
   font-size: 45px;
