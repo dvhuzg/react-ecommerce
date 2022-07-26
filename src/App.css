@@ -70,6 +70,17 @@ button {
 .contentWidth {
   width: 90%;
 }
+.discount {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #e94560;
+  padding: 3px 10px;
+  font-size: 12px;
+  border-radius: 50px;
+  color: #fff;
+  margin: 10px;
+}
 .category {
   width: 22%;
   box-shadow: rgb(43 52 69 /10%) 0 4px 16px;
@@ -202,4 +213,17 @@ button {
 .control-btn .next:hover,
 .control-btn .prev:hover {
   background: #e94560;
+}
+/*----------------------------------Control btn---------------------------------- */
+.heading .heading-left i{
+  font-size: 30px;
+}
+.heading .heading-left h2{
+  font-size: 25px;
+  margin: 5px;
+}
+.heading .heading-right,
+.heading .heading-right i{
+  text-align: right;
+  color: grey;
 }
