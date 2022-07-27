@@ -227,3 +227,15 @@ button {
   text-align: right;
   color: grey;
 }
+
+/* Grid */
+.grid{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  grid-gap: 30px;
+}
+.grid2{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 10px;
+}

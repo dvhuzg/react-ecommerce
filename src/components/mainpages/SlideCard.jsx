@@ -13,6 +13,7 @@ const SlideCard = () => {
     appendDots: (dots) => {
       return <ul style={{ margin: "0px" }}>{dots}</ul>
     },
+    autoplay:true
   };
   return (
     <>
