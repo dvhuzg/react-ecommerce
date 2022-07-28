@@ -6,6 +6,7 @@ import Data from "./components/flashDeals/Data";
 import Sdata from "./components/shop/SData";
 import { useState } from "react";
 import Cart from "./common/cart/Cart";
+import Footer from "./common/footer/Footer";
 
 function App() {
   const { productItems } = Data;
@@ -46,6 +47,7 @@ function App() {
             <Cart cartItem={cartItem} addToCart={addToCart} decreaseQty={decreaseQty}/>
           </Route>
         </Switch>
+        <Footer />
       </Router>
     </div>
   );

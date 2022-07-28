@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Slider from "react-slick";
 
 const ShopCart = ({ shopItems, addToCart }) => {
   const [count, setCount] = useState(0);
