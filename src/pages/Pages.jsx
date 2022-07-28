@@ -1,4 +1,5 @@
 import React from 'react'
+import Discount from '../components/discount/Discount'
 import FlashDeals from '../components/flashDeals/FlashDeals'
 import Home from '../components/mainpages/Home'
 import NewArrivals from '../components/newArrivals/NewArrivals'
@@ -11,6 +12,7 @@ const Pages = ({productItems,cartItem, addToCart}) => {
         <FlashDeals productItems={productItems} addToCart={addToCart}/>
         <TopCate />
         <NewArrivals/>
+        <Discount />
     </>
   )
 }

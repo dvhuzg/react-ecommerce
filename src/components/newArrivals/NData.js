@@ -1,6 +1,6 @@
 import a_1 from '../../common/assets/images/Arrivals/arrivals1.png'
 import a_2 from '../../common/assets/images/Arrivals/arrivals2.png'
-import a_3 from '../../common/assets/images/Arrivals/arrivals3.png'
+// import a_3 from '../../common/assets/images/Arrivals/arrivals3.png'
 import a_4 from '../../common/assets/images/Arrivals/arrivals4.png'
 import a_5 from '../../common/assets/images/Arrivals/arrivals5.png'
 import a_6 from '../../common/assets/images/Arrivals/arrivals6.png'
