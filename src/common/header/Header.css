@@ -19,6 +19,11 @@
   width: auto;
   height: auto;
 }
+.search h2{
+  color: #e94560;
+  font-style: italic;
+  font-weight: 700;
+}
 .search .width {
   width: 20%;
 }
